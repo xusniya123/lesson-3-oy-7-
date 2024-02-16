@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-mode: #202C36;
+    --sun-mode: #fff;
+}
+
+.sun-theme {
+    --dark-mode: #fff;
+    --sun-mode: #202C36;
+}
+
+body {
+    background-color: var(--dark-mode);
+}
+
+header {
+    width: 100vh;
+
+    
+}
+
+nav {
+    background: var(--dark-mode);
+    color: var(--sun-mode);
+}
+
+.container {
+ 
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    background: var(--dark-mode);
+    margin-top: 20px;
+    color: white;
+}
+
+.icon_wrapper {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.input_wrap {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    width: 100%;
+    height: 40px;
+}
+
+section {
+      background: var(--sun-mode);
+    background: var(--dark-mode);
+    background: #202C36;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+}
+
+.flags {
+    color: white;
+    margin-bottom: 100px;
+}
+
+.flags1 {
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.flag1 {
+
+    background: #2B3844;
+}
+
+.flag2 {
+    background: #2B3844;
+
+}
+
+.flag3 {
+    background: #2B3844;
+
+}
+
+.flag4 {
+    background: #2B3844;
+
+}
+
+.flags2 {
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.flag5 {
+    background: #2B3844;
+
+}
+
+.flag6 {
+    background: #2B3844;
+
+}
+
+.flag7 {
+    background: #2B3844;
+
+}
+
+.flag8 {
+    background: #2B3844;
+
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: var(--sun-mode);
+}
+
+p {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: var(--sun-mode);
+}
+
+
+.dark.btn{
+    color: var(--sun-mode);
+}
+
+
